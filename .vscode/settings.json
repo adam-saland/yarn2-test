@@ -1,0 +1,17 @@
+{
+  // Yarn 2
+  "eslint.nodePath": ".yarn/pnpify",
+  "prettier.prettierPath": ".yarn/pnpify/prettier/index.js",
+  "typescript.tsdk": ".yarn/pnpify/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  // ESLint
+  "eslint.enable": true,
+  "eslint.validate": ["javascript", "typescript", "typescriptreact"],
+  // VS Code
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "editor.tabSize": 2,
+  "files.eol": "\n",
+  "npm.packageManager": "yarn"
+}
